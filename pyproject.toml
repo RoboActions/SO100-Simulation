@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gym-so100"
+version = "0.1.0"
+description = "Simulation environments for SO100."
+readme = "README.md"
+authors = [
+  { name = "SO100 Team" }
+]
+license = { text = "Proprietary" }
+requires-python = ">=3.9"
+dependencies = [
+  "imageio[ffmpeg]>=2.31",
+  "gymnasium>=0.29.0",
+  "gym<0.26",
+  "numpy>=1.24",
+  "dm-control>=1.0.14"
+]
+
+[tool.setuptools.packages.find]
+include = ["gym_so100*"]

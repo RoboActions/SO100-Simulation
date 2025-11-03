@@ -1,0 +1,4 @@
+imageio[ffmpeg]
+gymnasium
+gym<0.26
+dm-control

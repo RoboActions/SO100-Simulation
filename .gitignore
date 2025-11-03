@@ -1,0 +1,4 @@
+venv/
+.venv/
+firebase-debug.log
+*egg-info*
