@@ -3,7 +3,6 @@ import numpy as np
 from dm_control import mujoco
 from dm_control.rl import control
 from gymnasium import spaces
-import gym as old_gym
 
 from gym_so100.constants import (
     SO100_ACTIONS,
